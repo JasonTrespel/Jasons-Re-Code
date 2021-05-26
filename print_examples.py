@@ -22,3 +22,14 @@ print("A tree is", tree_height, "feet high.")
 tree_height = 178
 
 print("A tree is", tree_height, "feet high.")
+
+# print 2 or 3 integers and use sep
+print(25, 26, 27, sep=" & ")
+print("Terry", "Josh", sep= " is friends with ")
+
+# print a str followed by end
+# when followed by \n a new line will appear otherwise next code is on same line
+print("Hi", " I am Norman", end=" :)\n")
+
+
+
