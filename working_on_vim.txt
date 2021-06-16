@@ -1,0 +1,56 @@
+Bravely bold Sir Robin
+Rode forth from Camelot.
+He was not afraid to die,
+Oh brave Sir Robin.
+He was not at all afraid
+To be killed in nasty ways.
+Brave, brave, brave, brave Sir Robin.
+He was not in the least bit scared
+To be mashed into a pulp.
+Or to have his eyes gouged out,
+And his elbows broken.
+To have his kneecaps split
+And his body burned away,
+And his limbs all hacked and mangled
+Brave Sir Robin.
+His head smashed in
+And his heart cut out
+And his liver removed
+And his bowls unplugged
+And his nostrils raped
+And his bottom burnt off
+And his penis
+"That's, that's enough music for now lads, there's dirty work afoot."
+Brave Sir Robin ran away.
+("No!")
+Bravely ran away away.
+("I didn't!")
+When danger reared it's ugly head,
+He bravely turned his tail and fled.
+("I never!")
+Yes, brave Sir Robin turned about
+And gallantly he chickened out.
+("You're lying!")
+gravely
+Bravely
+Swiftly taking to his feet,
+He beat a very brave retreat.
+Bravest of the brave, Sir Robin!
+
+
+
+Command Mode:
+Shift + A    (takes you to end of line and puts you in insert mode)
+0   (brings you to the beginning of the line, staying in command mode)
+$   (brings you to the end of the line, staying in command mode)
+:%s/searchword/wordreplacingwith/gc   (replaces all instances of "searchword" with "wordreplacingwith". Also the last / the gc   (global check) goes through entire file and asks if you want to do that replacement). 
+dd   (deletes the line you are currently on)
+d$   (deletes everything on the line you are currently on, from your cursor to the end)
+d0   (deletes everything on the line you are currently on, from your cursor to the beginning)
+dgg   (deletes the line you are currently on and everything above it)
+dG   (deletes the line you are currently on and everything below it)
+yy   ("yanks" the line you are currently on)
+p   (pastes your "yanked" line below where your cursor is at)
+o   (opens up a new line below your cursor, in INSERT MODE)
+O   (opens up a new line above your cursor, in INSERT MODE)
+x   (deletes a single character)
