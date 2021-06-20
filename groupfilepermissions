@@ -1,7 +1,5 @@
-write some text here
-
-
-
-
-dkfj or4eirjif gf
-
+# This is practice for git command.
+1. git status
+2. git add to add changes made to files
+3. git commit using the -m option
+4. git push
