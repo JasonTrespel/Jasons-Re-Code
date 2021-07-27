@@ -1,5 +1,2 @@
-aiohttp
-aiosqlite
-jinja2
-bs4
-requests
+aiohttp==3.7.4.post0
+jinja2==3.0.1
