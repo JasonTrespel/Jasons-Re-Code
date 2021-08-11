@@ -14,12 +14,10 @@ import jinja2
 from pathlib import Path
 import random
 import requests
-import socket
 import os
 import json
 
 HOST = os.getenv("API_HOST", "0.0.0.0")
-LOCAL_IP = socket.gethostbyname(socket.gethostname())
 PORT = os.getenv("API_PORT", 2225)
 REG_ADDR = os.getenv("SR_ADDRESS", "127.0.0.1")
 REG_PORT = os.getenv("SR_PORT", 55555)

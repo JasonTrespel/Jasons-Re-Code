@@ -11,11 +11,9 @@ import jinja2
 from pathlib import Path
 import random
 import requests
-import socket
 import os
 
 HOST = os.getenv("FORTUNE_HOST", "0.0.0.0")
-LOCAL_IP = socket.gethostbyname(socket.gethostname())
 PORT = os.getenv("FORTUNE_PORT", 2229)
 REG_ADDR = os.getenv("SR_ADDRESS", "127.0.0.1")
 REG_PORT = os.getenv("SR_PORT", 55555)
